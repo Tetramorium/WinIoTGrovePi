@@ -66,10 +66,6 @@ namespace WinIoTGrovePi
 
         private async void bt_Test_Click(object sender, RoutedEventArgs e)
         {
-            var speechRecognizer = new Windows.Media.SpeechRecognition.SpeechRecognizer();
-            Windows.Media.SpeechRecognition.SpeechRecognitionResult speechRecognitionResult = await speechRecognizer.RecognizeWithUIAsync();
-            var messageDialog = new Windows.UI.Popups.MessageDialog(speechRecognitionResult.Text, "Text spoken");
-            await messageDialog.ShowAsync();
         }
     }
 }

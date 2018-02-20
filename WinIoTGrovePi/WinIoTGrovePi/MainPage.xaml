@@ -12,7 +12,5 @@
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <lvc:CartesianChart x:Name="___No_Name_" DisableAnimations="False" Hoverable="False" DataTooltip="{x:Null}" Series="{Binding Path=SeriesCollection}">
         </lvc:CartesianChart>
-        <Button x:Name="bt_Test" Content="Button" HorizontalAlignment="Left" Margin="25,12,0,0" VerticalAlignment="Top" Click="bt_Test_Click"/>
-        <TextBlock x:Name="tb_Test" HorizontalAlignment="Left" Margin="116,21,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top"/>
     </Grid>
 </Page>
