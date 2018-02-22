@@ -7,8 +7,8 @@
     <ProjectGuid>{D0BAC235-9443-4AB3-A7DF-EFCAFC5DCBCA}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WinIoTGrovePi</RootNamespace>
-    <AssemblyName>WinIoTGrovePi</AssemblyName>
+    <RootNamespace>TempSensorChart</RootNamespace>
+    <AssemblyName>TempSensorChart</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.16299.0</TargetPlatformVersion>

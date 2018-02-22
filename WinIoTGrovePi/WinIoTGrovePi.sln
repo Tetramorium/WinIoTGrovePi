@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TempSensorChart", "WinIoTGrovePi\TempSensorChart.csproj", "{D0BAC235-9443-4AB3-A7DF-EFCAFC5DCBCA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LedButtonPotentiometer", "LedButtonPotentiometer\LedButtonPotentiometer.csproj", "{ECFADF9A-A6BB-4AB2-A54D-E96E7396C24A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TempSensorChart", "TempSensorChart\TempSensorChart.csproj", "{D0BAC235-9443-4AB3-A7DF-EFCAFC5DCBCA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,24 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECFADF9A-A6BB-4AB2-A54D-E96E7396C24A}.Debug|ARM.ActiveCfg = Debug|ARM
+		{ECFADF9A-A6BB-4AB2-A54D-E96E7396C24A}.Debug|ARM.Build.0 = Debug|ARM
+		{ECFADF9A-A6BB-4AB2-A54D-E96E7396C24A}.Debug|ARM.Deploy.0 = Debug|ARM
+		{ECFADF9A-A6BB-4AB2-A54D-E96E7396C24A}.Debug|x64.ActiveCfg = Debug|x64
+		{ECFADF9A-A6BB-4AB2-A54D-E96E7396C24A}.Debug|x64.Build.0 = Debug|x64
+		{ECFADF9A-A6BB-4AB2-A54D-E96E7396C24A}.Debug|x64.Deploy.0 = Debug|x64
+		{ECFADF9A-A6BB-4AB2-A54D-E96E7396C24A}.Debug|x86.ActiveCfg = Debug|x86
+		{ECFADF9A-A6BB-4AB2-A54D-E96E7396C24A}.Debug|x86.Build.0 = Debug|x86
+		{ECFADF9A-A6BB-4AB2-A54D-E96E7396C24A}.Debug|x86.Deploy.0 = Debug|x86
+		{ECFADF9A-A6BB-4AB2-A54D-E96E7396C24A}.Release|ARM.ActiveCfg = Release|ARM
+		{ECFADF9A-A6BB-4AB2-A54D-E96E7396C24A}.Release|ARM.Build.0 = Release|ARM
+		{ECFADF9A-A6BB-4AB2-A54D-E96E7396C24A}.Release|ARM.Deploy.0 = Release|ARM
+		{ECFADF9A-A6BB-4AB2-A54D-E96E7396C24A}.Release|x64.ActiveCfg = Release|x64
+		{ECFADF9A-A6BB-4AB2-A54D-E96E7396C24A}.Release|x64.Build.0 = Release|x64
+		{ECFADF9A-A6BB-4AB2-A54D-E96E7396C24A}.Release|x64.Deploy.0 = Release|x64
+		{ECFADF9A-A6BB-4AB2-A54D-E96E7396C24A}.Release|x86.ActiveCfg = Release|x86
+		{ECFADF9A-A6BB-4AB2-A54D-E96E7396C24A}.Release|x86.Build.0 = Release|x86
+		{ECFADF9A-A6BB-4AB2-A54D-E96E7396C24A}.Release|x86.Deploy.0 = Release|x86
 		{D0BAC235-9443-4AB3-A7DF-EFCAFC5DCBCA}.Debug|ARM.ActiveCfg = Debug|ARM
 		{D0BAC235-9443-4AB3-A7DF-EFCAFC5DCBCA}.Debug|ARM.Build.0 = Debug|ARM
 		{D0BAC235-9443-4AB3-A7DF-EFCAFC5DCBCA}.Debug|ARM.Deploy.0 = Debug|ARM
