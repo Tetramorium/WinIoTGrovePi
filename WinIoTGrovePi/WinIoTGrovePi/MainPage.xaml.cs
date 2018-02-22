@@ -15,8 +15,8 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
-using WinIoTGrovePi.Controller;
-using WinIoTGrovePi.Model;
+using TempSensorChart.Controller;
+using TempSensorChart.Model;
 
 
 using GrovePi;
@@ -26,7 +26,7 @@ using GrovePi.I2CDevices;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
-namespace WinIoTGrovePi
+namespace TempSensorChart
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
@@ -62,10 +62,6 @@ namespace WinIoTGrovePi
             double sensortemp = sensor.TemperatureInCelsius;
 
             lcc.addToChart(new DateModel(sensortemp, DateTime.Now));
-        }
-
-        private async void bt_Test_Click(object sender, RoutedEventArgs e)
-        {
         }
     }
 }

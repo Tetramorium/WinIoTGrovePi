@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 using LiveCharts;
 using LiveCharts.Configurations;
 using LiveCharts.Uwp;
-using WinIoTGrovePi.Model;
-using WinIoTGrovePi.Tools;
+using TempSensorChart.Model;
+using TempSensorChart.Tools;
 
-namespace WinIoTGrovePi.Controller
+namespace TempSensorChart.Controller
 {
     public class LiveChartsController : NotifyPropertyChangedBase
     {

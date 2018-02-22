@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using Windows.ApplicationModel.Core;
 using Windows.UI.Core;
 
-namespace WinIoTGrovePi.Tools
+namespace TempSensorChart.Tools
 {
     public class BaseNotifyPropertyChanged : INotifyPropertyChanged
     {
